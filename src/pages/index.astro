@@ -2,10 +2,12 @@
 import Layout from "../layouts/Layout.astro";
 import "../styles/global.css";
 
+import Nav from "../components/Nav.astro";
 import Hero from "../components/Hero.astro";
 import WhatWeDo from "../components/WhatWeDo.astro";
 import HowItWorks from "../components/HowItWorks.astro";
 import DomainGrid from "../components/DomainGrid.astro";
+import Monitoring from "../components/Monitoring.astro";
 import PilotCTA from "../components/PilotCTA.astro";
 import DeveloperSection from "../components/DeveloperSection.astro";
 import PricingCards from "../components/PricingCards.astro";
@@ -13,11 +15,13 @@ import TrustSignals from "../components/TrustSignals.astro";
 import Footer from "../components/Footer.astro";
 ---
 
-<Layout title="Barivia — Data Intelligence as a Service">
+<Layout title="Barivia AB — Data Intelligence as a Service">
+  <Nav />
   <Hero />
   <WhatWeDo />
   <HowItWorks />
   <DomainGrid />
+  <Monitoring />
   <PilotCTA />
   <DeveloperSection />
   <PricingCards />

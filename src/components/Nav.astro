@@ -1,0 +1,49 @@
+---
+const links = [
+  { label: "How It Works", href: "#how" },
+  { label: "Domains", href: "#domains" },
+  { label: "Developers", href: "#developers" },
+  { label: "Pricing", href: "#pricing" },
+];
+---
+
+<nav
+  id="site-nav"
+  class="fixed top-0 inset-x-0 z-50 transition-colors duration-300"
+>
+  <div class="mx-auto max-w-5xl px-6 flex items-center justify-between h-14">
+    <a href="/" class="text-lg font-bold tracking-tight">Barivia</a>
+    <div class="hidden sm:flex items-center gap-6">
+      {links.map((link) => (
+        <a
+          href={link.href}
+          class="text-sm font-medium opacity-80 hover:opacity-100 transition-opacity"
+        >
+          {link.label}
+        </a>
+      ))}
+      <a
+        href="#pilot"
+        class="text-sm font-semibold rounded-lg px-4 py-1.5 bg-white/15 hover:bg-white/25 transition-colors"
+      >
+        Get in Touch
+      </a>
+    </div>
+  </div>
+</nav>
+
+<script>
+  const nav = document.getElementById("site-nav")!;
+  const hero = document.querySelector("section")!;
+
+  function updateNav() {
+    const pastHero = window.scrollY > hero.offsetHeight - 60;
+    nav.classList.toggle("bg-white", pastHero);
+    nav.classList.toggle("shadow-sm", pastHero);
+    nav.classList.toggle("text-barivia-dark", pastHero);
+    nav.classList.toggle("text-white", !pastHero);
+  }
+
+  updateNav();
+  window.addEventListener("scroll", updateNav, { passive: true });
+</script>

@@ -1,139 +1,136 @@
 ---
-const plans = [
+const tiers = [
   {
-    name: "Free",
-    price: "$0",
-    period: "",
-    description: "Try it out",
-    features: ["50 one-time credits", "5 datasets", "Basic grid sizes"],
-    cta: "Get Started",
-    highlighted: false,
-  },
-  {
-    name: "Researcher",
-    price: "$29",
-    period: "/mo",
-    description: "Students, individual analysts",
-    features: ["500 credits/month", "25 datasets", "Medium grid sizes", "Email support"],
-    cta: "Start Free Trial",
-    highlighted: false,
+    name: "Explorer",
+    audience: "Try it out — no commitment",
+    features: ["One-time credit pack", "Standard grid sizes", "Community support"],
   },
   {
     name: "Professional",
-    price: "$99",
-    period: "/mo",
-    description: "Engineers, data scientists",
-    features: ["2,500 credits/month", "50 datasets", "Large grid sizes", "5 concurrent jobs", "Priority support"],
-    cta: "Start Free Trial",
+    audience: "Engineers & data scientists",
+    features: ["Monthly credit allowance", "Large grid sizes", "Concurrent jobs", "Priority support"],
     highlighted: true,
   },
   {
     name: "Team",
-    price: "$299",
-    period: "/mo",
-    description: "Small teams, consulting firms",
-    features: ["10,000 credits/month", "Unlimited datasets", "Full grid sizes", "20 concurrent jobs", "Dedicated support"],
-    cta: "Start Free Trial",
-    highlighted: false,
+    audience: "Consulting firms & departments",
+    features: ["Generous credit pool", "Full grid sizes", "Parallel workloads", "Dedicated support"],
   },
   {
     name: "Enterprise",
-    price: "Custom",
-    period: "",
-    description: "Dedicated capacity, SLA, SSO",
-    features: ["Custom credits", "Unlimited everything", "GPU-accelerated", "On-premise option", "SLA guarantee"],
-    cta: "Contact Us",
-    highlighted: false,
+    audience: "Custom capacity, SLA, SSO",
+    features: ["Unlimited credits", "GPU-accelerated compute", "On-premise option", "SLA guarantee"],
+  },
+];
+
+const pillars = [
+  {
+    label: "Algorithms",
+    detail: "Proprietary Self-Organizing Map engine — published research, not off-the-shelf clustering.",
+  },
+  {
+    label: "Performance",
+    detail: "Optimized Julia core with GPU-ready paths. Large datasets finish in minutes, not hours.",
+  },
+  {
+    label: "Infrastructure",
+    detail: "AWS compute, Cloudflare edge, PostgreSQL persistence. Production-grade from day one.",
+  },
+  {
+    label: "Data Security",
+    detail: "Encrypted at rest, TLS in transit, per-tenant isolation. Your data never leaves your scope.",
   },
 ];
 ---
 
 <section id="pricing" class="py-20 sm:py-28 bg-white">
-  <div class="mx-auto max-w-6xl px-6">
+  <div class="mx-auto max-w-5xl px-6">
     <div class="text-center">
       <h2 class="text-3xl sm:text-4xl font-bold text-barivia-dark tracking-tight">
-        Pricing
+        Plans for Every Stage
       </h2>
-      <p class="mt-4 text-lg text-barivia-gray max-w-xl mx-auto">
-        A typical analysis session uses 25-30 credits. Iterate freely within your plan.
+      <p class="mt-4 text-lg text-barivia-gray max-w-2xl mx-auto leading-relaxed">
+        Start free, then scale as your analysis needs grow. Every plan runs the same
+        engine on the same infrastructure — no feature gates on quality.
       </p>
     </div>
 
-    <div class="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
-      {plans.map((plan) => (
+    <!-- Tier cards -->
+    <div class="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      {tiers.map((tier) => (
         <div
           class:list={[
             "rounded-xl p-6 flex flex-col border",
-            plan.highlighted
-              ? "bg-barivia-dark text-white border-barivia-dark shadow-xl scale-[1.02]"
+            tier.highlighted
+              ? "bg-barivia-dark text-white border-barivia-dark shadow-xl"
               : "bg-barivia-light border-gray-100",
           ]}
         >
           <h3
             class:list={[
               "text-lg font-bold",
-              plan.highlighted ? "text-white" : "text-barivia-dark",
+              tier.highlighted ? "text-white" : "text-barivia-dark",
             ]}
           >
-            {plan.name}
+            {tier.name}
           </h3>
-          <div class="mt-3 flex items-baseline gap-1">
-            <span
-              class:list={[
-                "text-3xl font-bold",
-                plan.highlighted ? "text-white" : "text-barivia-dark",
-              ]}
-            >
-              {plan.price}
-            </span>
-            {plan.period && (
-              <span
-                class:list={[
-                  "text-sm",
-                  plan.highlighted ? "text-blue-200" : "text-barivia-gray",
-                ]}
-              >
-                {plan.period}
-              </span>
-            )}
-          </div>
           <p
             class:list={[
-              "mt-2 text-sm",
-              plan.highlighted ? "text-blue-200" : "text-barivia-gray",
+              "mt-1 text-sm",
+              tier.highlighted ? "text-blue-200" : "text-barivia-gray",
             ]}
           >
-            {plan.description}
+            {tier.audience}
           </p>
           <ul class="mt-5 space-y-2 flex-1">
-            {plan.features.map((feature) => (
+            {tier.features.map((feature) => (
               <li class="flex items-start gap-2 text-sm">
-                <span class={plan.highlighted ? "text-blue-200" : "text-barivia-blue"}>
+                <span class={tier.highlighted ? "text-blue-200" : "text-barivia-blue"}>
                   ✓
                 </span>
-                <span class={plan.highlighted ? "text-blue-100" : "text-barivia-gray"}>
+                <span class={tier.highlighted ? "text-blue-100" : "text-barivia-gray"}>
                   {feature}
                 </span>
               </li>
             ))}
           </ul>
           <a
-            href={plan.name === "Enterprise" ? "mailto:h.barestrand@gmail.com?subject=Barivia%20Enterprise" : "#"}
+            href={tier.name === "Enterprise"
+              ? "mailto:info@barivia.se?subject=Barivia%20Enterprise"
+              : "#pilot"}
             class:list={[
               "mt-6 block rounded-lg py-2.5 text-center text-sm font-semibold transition-colors",
-              plan.highlighted
+              tier.highlighted
                 ? "bg-white text-barivia-dark hover:bg-blue-50"
                 : "bg-barivia-blue text-white hover:bg-barivia-dark",
             ]}
           >
-            {plan.cta}
+            {tier.name === "Enterprise" ? "Contact Us" : "Get Early Access"}
           </a>
         </div>
       ))}
     </div>
 
-    <p class="mt-8 text-center text-sm text-barivia-gray">
-      $99/month replaces days of specialist consulting.
+    <!-- What you get -->
+    <div class="mt-20">
+      <h3 class="text-xl font-bold text-barivia-dark text-center tracking-tight">
+        What Every Plan Includes
+      </h3>
+      <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-8">
+        {pillars.map((pillar) => (
+          <div class="flex gap-4">
+            <div class="flex-shrink-0 mt-1 h-2 w-2 rounded-full bg-barivia-blue"></div>
+            <div>
+              <p class="font-semibold text-barivia-dark">{pillar.label}</p>
+              <p class="mt-1 text-sm text-barivia-gray leading-relaxed">{pillar.detail}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <p class="mt-14 text-center text-barivia-gray">
+      A monthly plan replaces days of specialist consulting.
     </p>
   </div>
 </section>
