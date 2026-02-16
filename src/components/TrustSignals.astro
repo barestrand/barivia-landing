@@ -1,0 +1,32 @@
+---
+const signals = [
+  {
+    title: "Academic Foundation",
+    description: "Wiley-published research. Developed at Luleå University of Technology and RISE Sweden.",
+  },
+  {
+    title: "Production Infrastructure",
+    description: "AWS, Cloudflare, PostgreSQL, Redis. Built for reliability and scale.",
+  },
+  {
+    title: "Secure by Design",
+    description: "API key authentication, encrypted data at rest, per-tenant isolation. Your data stays yours.",
+  },
+];
+---
+
+<section class="py-20 sm:py-28">
+  <div class="mx-auto max-w-4xl px-6">
+    <h2 class="text-3xl sm:text-4xl font-bold text-barivia-dark text-center tracking-tight">
+      Built on Trust
+    </h2>
+    <div class="mt-14 grid grid-cols-1 sm:grid-cols-3 gap-8">
+      {signals.map((signal) => (
+        <div class="text-center">
+          <h3 class="text-lg font-semibold text-barivia-dark">{signal.title}</h3>
+          <p class="mt-2 text-barivia-gray leading-relaxed text-sm">{signal.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

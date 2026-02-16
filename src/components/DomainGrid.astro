@@ -1,0 +1,54 @@
+---
+const domains = [
+  {
+    title: "Energy & Utilities",
+    description: "Generation, distribution, and consumption data. Load patterns, anomaly detection.",
+    icon: "⚡",
+  },
+  {
+    title: "Industrial & Process",
+    description: "High-frequency sensor streams. Operating modes, failure precursors.",
+    icon: "🏭",
+  },
+  {
+    title: "Finance",
+    description: "Market regimes, cross-asset dynamics, temporal structure in price data.",
+    icon: "📊",
+  },
+  {
+    title: "Business Operations",
+    description: "Customer segmentation, operational patterns, behavioural analysis.",
+    icon: "🏢",
+  },
+  {
+    title: "Environmental",
+    description: "Weather patterns, seasonal cycles, spatial clustering in monitoring data.",
+    icon: "🌍",
+  },
+  {
+    title: "Biomedical",
+    description: "Spectral signatures, classification, feature extraction from complex data.",
+    icon: "🧬",
+  },
+];
+---
+
+<section class="py-20 sm:py-28">
+  <div class="mx-auto max-w-5xl px-6">
+    <h2 class="text-3xl sm:text-4xl font-bold text-barivia-dark text-center tracking-tight">
+      Where We've Proven It
+    </h2>
+    <p class="mt-4 text-center text-barivia-gray text-lg max-w-2xl mx-auto">
+      Our technology works across domains — anywhere structured data holds hidden structure.
+    </p>
+    <div class="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      {domains.map((domain) => (
+        <div class="rounded-xl bg-white p-6 shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
+          <div class="text-3xl mb-3">{domain.icon}</div>
+          <h3 class="text-lg font-semibold text-barivia-dark">{domain.title}</h3>
+          <p class="mt-2 text-barivia-gray leading-relaxed text-sm">{domain.description}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

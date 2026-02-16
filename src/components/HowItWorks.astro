@@ -1,0 +1,47 @@
+---
+const steps = [
+  {
+    number: "1",
+    title: "Share a dataset",
+    description: "Any structured tabular format works — CSV, Excel, database exports.",
+  },
+  {
+    number: "2",
+    title: "We run the analysis",
+    description: "On secure, high-performance infrastructure using our proprietary platform.",
+  },
+  {
+    number: "3",
+    title: "Visual insights report",
+    description: "You receive maps, patterns, and a written brief — within days.",
+  },
+  {
+    number: "4",
+    title: "Findings walkthrough",
+    description: "We walk you through the results and their implications for your business.",
+  },
+];
+---
+
+<section class="py-20 sm:py-28 bg-white">
+  <div class="mx-auto max-w-5xl px-6">
+    <h2 class="text-3xl sm:text-4xl font-bold text-barivia-dark text-center tracking-tight">
+      How It Works
+    </h2>
+    <div class="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      {steps.map((step) => (
+        <div class="text-center">
+          <div class="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-barivia-blue text-white text-lg font-bold">
+            {step.number}
+          </div>
+          <h3 class="mt-4 text-lg font-semibold text-barivia-dark">
+            {step.title}
+          </h3>
+          <p class="mt-2 text-barivia-gray leading-relaxed">
+            {step.description}
+          </p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
