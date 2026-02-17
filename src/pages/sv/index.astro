@@ -1,0 +1,36 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import "../../styles/global.css";
+
+import Nav from "../../components/Nav.astro";
+import Hero from "../../components/Hero.astro";
+import WhatWeDo from "../../components/WhatWeDo.astro";
+import HowItWorks from "../../components/HowItWorks.astro";
+import DomainGrid from "../../components/DomainGrid.astro";
+import Monitoring from "../../components/Monitoring.astro";
+import PilotCTA from "../../components/PilotCTA.astro";
+import DeveloperSection from "../../components/DeveloperSection.astro";
+import PricingCards from "../../components/PricingCards.astro";
+import TrustSignals from "../../components/TrustSignals.astro";
+import Footer from "../../components/Footer.astro";
+
+const lang = "sv" as const;
+---
+
+<Layout
+  title="Barivia AB — Dataintelligens som tjänst"
+  description="Barivia AB — Dataintelligens som tjänst. Proprietär analys som synliggör det andra missar."
+  lang={lang}
+>
+  <Nav lang={lang} />
+  <Hero lang={lang} />
+  <WhatWeDo lang={lang} />
+  <HowItWorks lang={lang} />
+  <DomainGrid lang={lang} />
+  <Monitoring lang={lang} />
+  <PilotCTA lang={lang} />
+  <DeveloperSection lang={lang} />
+  <PricingCards lang={lang} />
+  <TrustSignals lang={lang} />
+  <Footer lang={lang} />
+</Layout>

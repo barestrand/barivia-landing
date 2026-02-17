@@ -1,45 +1,25 @@
 ---
+import { t, type Lang } from "../i18n/ui";
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+
 const domains = [
-  {
-    title: "Energy & Utilities",
-    description: "Generation, distribution, and consumption data. Load patterns, anomaly detection.",
-    icon: "⚡",
-  },
-  {
-    title: "Industrial & Process",
-    description: "High-frequency sensor streams. Operating modes, process monitoring, failure precursors.",
-    icon: "🏭",
-  },
-  {
-    title: "Finance",
-    description: "Market regimes, cross-asset dynamics, temporal structure in price data.",
-    icon: "📊",
-  },
-  {
-    title: "Business Operations",
-    description: "Customer segmentation, operational patterns, behavioural analysis.",
-    icon: "🏢",
-  },
-  {
-    title: "Environmental",
-    description: "Weather patterns, seasonal cycles, spatial clustering in monitoring data.",
-    icon: "🌍",
-  },
-  {
-    title: "Biomedical",
-    description: "Spectral signatures, classification, feature extraction from complex data.",
-    icon: "🧬",
-  },
+  { icon: "⚡", title: t(lang, "domains.energy.title"), description: t(lang, "domains.energy.desc") },
+  { icon: "🏭", title: t(lang, "domains.industrial.title"), description: t(lang, "domains.industrial.desc") },
+  { icon: "📊", title: t(lang, "domains.finance.title"), description: t(lang, "domains.finance.desc") },
+  { icon: "🏢", title: t(lang, "domains.business.title"), description: t(lang, "domains.business.desc") },
+  { icon: "🌍", title: t(lang, "domains.environmental.title"), description: t(lang, "domains.environmental.desc") },
+  { icon: "🧬", title: t(lang, "domains.biomedical.title"), description: t(lang, "domains.biomedical.desc") },
 ];
 ---
 
 <section id="domains" class="py-20 sm:py-28">
   <div class="mx-auto max-w-5xl px-6">
     <h2 class="text-3xl sm:text-4xl font-bold text-barivia-dark text-center tracking-tight">
-      Where We've Proven It
+      {t(lang, "domains.heading")}
     </h2>
     <p class="mt-4 text-center text-barivia-gray text-lg max-w-2xl mx-auto">
-      Our technology works across domains — anywhere structured data holds hidden structure.
+      {t(lang, "domains.sub")}
     </p>
     <div class="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
       {domains.map((domain) => (

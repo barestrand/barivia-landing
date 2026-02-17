@@ -1,23 +1,31 @@
 ---
+import { t, type Lang } from "../i18n/ui";
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+
+const steps = [
+  { num: "1", title: t(lang, "dev.step1.title"), desc: t(lang, "dev.step1.desc") },
+  { num: "2", title: t(lang, "dev.step2.title"), desc: t(lang, "dev.step2.desc") },
+  { num: "3", title: t(lang, "dev.step3.title"), desc: t(lang, "dev.step3.desc") },
+];
 ---
 
 <section id="developers" class="py-20 sm:py-28">
   <div class="mx-auto max-w-5xl px-6">
     <div class="text-center">
       <p class="text-sm font-medium tracking-widest uppercase text-barivia-blue mb-3">
-        For Developers
+        {t(lang, "dev.label")}
       </p>
       <h2 class="text-3xl sm:text-4xl font-bold text-barivia-dark tracking-tight">
-        AI-Driven Pattern Discovery
+        {t(lang, "dev.heading")}
       </h2>
       <p class="mt-4 text-lg text-barivia-gray max-w-2xl mx-auto leading-relaxed">
-        The Barivia Analytics Engine turns complex datasets into actionable insights — delivered
-        as an MCP server to any AI assistant you already use. One config line, no server setup.
+        {t(lang, "dev.sub")}
       </p>
     </div>
 
     <div class="mt-14 grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
-      <!-- Code snippet -->
+      <!-- Code snippet (language-neutral) -->
       <div class="rounded-xl bg-barivia-dark overflow-hidden shadow-lg">
         <div class="flex items-center gap-2 px-4 py-3 bg-black/20">
           <div class="h-3 w-3 rounded-full bg-red-400/60"></div>
@@ -40,34 +48,22 @@
 
       <!-- Steps -->
       <div class="space-y-8">
-        <div class="flex gap-4">
-          <div class="flex-shrink-0 h-8 w-8 rounded-full bg-barivia-blue/10 flex items-center justify-center text-barivia-blue font-bold text-sm">1</div>
-          <div>
-            <h3 class="font-semibold text-barivia-dark">Connect</h3>
-            <p class="mt-1 text-barivia-gray leading-relaxed">Add the Barivia Analytics Engine to Cursor, Claude, Gemini, or any MCP-compatible AI tool. One line of config.</p>
+        {steps.map((step) => (
+          <div class="flex gap-4">
+            <div class="flex-shrink-0 h-8 w-8 rounded-full bg-barivia-blue/10 flex items-center justify-center text-barivia-blue font-bold text-sm">{step.num}</div>
+            <div>
+              <h3 class="font-semibold text-barivia-dark">{step.title}</h3>
+              <p class="mt-1 text-barivia-gray leading-relaxed">{step.desc}</p>
+            </div>
           </div>
-        </div>
-        <div class="flex gap-4">
-          <div class="flex-shrink-0 h-8 w-8 rounded-full bg-barivia-blue/10 flex items-center justify-center text-barivia-blue font-bold text-sm">2</div>
-          <div>
-            <h3 class="font-semibold text-barivia-dark">Describe</h3>
-            <p class="mt-1 text-barivia-gray leading-relaxed">Upload your data and tell the AI what you're looking for. No code required.</p>
-          </div>
-        </div>
-        <div class="flex gap-4">
-          <div class="flex-shrink-0 h-8 w-8 rounded-full bg-barivia-blue/10 flex items-center justify-center text-barivia-blue font-bold text-sm">3</div>
-          <div>
-            <h3 class="font-semibold text-barivia-dark">Discover</h3>
-            <p class="mt-1 text-barivia-gray leading-relaxed">The Analytics Engine trains, analyzes, and visualizes patterns. You get maps, regimes, and metrics back.</p>
-          </div>
-        </div>
+        ))}
       </div>
     </div>
 
     <!-- Works With -->
     <div class="mt-16 text-center">
       <p class="text-sm font-medium text-barivia-gray uppercase tracking-widest mb-5">
-        Works with
+        {t(lang, "dev.worksWith")}
       </p>
       <div class="flex flex-wrap justify-center gap-4">
         {["Cursor", "Claude Desktop", "Claude Code", "Gemini CLI", "VS Code", "Any MCP Client"].map((name) => (

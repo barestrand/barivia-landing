@@ -13,18 +13,20 @@ import DeveloperSection from "../components/DeveloperSection.astro";
 import PricingCards from "../components/PricingCards.astro";
 import TrustSignals from "../components/TrustSignals.astro";
 import Footer from "../components/Footer.astro";
+
+const lang = "en" as const;
 ---
 
-<Layout title="Barivia AB — Data Intelligence as a Service">
-  <Nav />
-  <Hero />
-  <WhatWeDo />
-  <HowItWorks />
-  <DomainGrid />
-  <Monitoring />
-  <PilotCTA />
-  <DeveloperSection />
-  <PricingCards />
-  <TrustSignals />
-  <Footer />
+<Layout title="Barivia AB — Data Intelligence as a Service" lang={lang}>
+  <Nav lang={lang} />
+  <Hero lang={lang} />
+  <WhatWeDo lang={lang} />
+  <HowItWorks lang={lang} />
+  <DomainGrid lang={lang} />
+  <Monitoring lang={lang} />
+  <PilotCTA lang={lang} />
+  <DeveloperSection lang={lang} />
+  <PricingCards lang={lang} />
+  <TrustSignals lang={lang} />
+  <Footer lang={lang} />
 </Layout>

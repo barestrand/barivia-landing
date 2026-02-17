@@ -1,10 +1,19 @@
 ---
+import { t, langPrefix, type Lang } from "../i18n/ui";
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const pre = langPrefix(lang);
+
 const links = [
-  { label: "How It Works", href: "#how" },
-  { label: "Domains", href: "#domains" },
-  { label: "Developers", href: "#developers" },
-  { label: "Pricing", href: "#pricing" },
+  { label: t(lang, "nav.howItWorks"), href: `${pre}/#how` },
+  { label: t(lang, "nav.domains"), href: `${pre}/#domains` },
+  { label: t(lang, "nav.developers"), href: `${pre}/#developers` },
+  { label: t(lang, "nav.pricing"), href: `${pre}/#pricing` },
 ];
+
+const otherLang = lang === "en" ? "sv" : "en";
+const otherHref = otherLang === "en" ? "/" : "/sv/";
+const flag = lang === "en" ? "🇸🇪" : "🇬🇧";
 ---
 
 <nav
@@ -12,7 +21,7 @@ const links = [
   class="fixed top-0 inset-x-0 z-50 transition-colors duration-300"
 >
   <div class="mx-auto max-w-5xl px-6 flex items-center justify-between h-14">
-    <a href="/" class="text-lg font-bold tracking-tight">Barivia AB</a>
+    <a href={`${pre}/`} class="text-lg font-bold tracking-tight">{t(lang, "nav.brand")}</a>
     <div class="hidden sm:flex items-center gap-6">
       {links.map((link) => (
         <a
@@ -23,10 +32,17 @@ const links = [
         </a>
       ))}
       <a
-        href="#pilot"
+        href={`${pre}/#pilot`}
         class="text-sm font-semibold rounded-lg px-4 py-1.5 bg-white/15 hover:bg-white/25 transition-colors"
       >
-        Get in Touch
+        {t(lang, "nav.cta")}
+      </a>
+      <a
+        href={otherHref}
+        class="text-lg leading-none hover:scale-110 transition-transform"
+        title={otherLang === "sv" ? "Svenska" : "English"}
+      >
+        {flag}
       </a>
     </div>
   </div>

@@ -1,24 +1,19 @@
 ---
+import { t, type Lang } from "../i18n/ui";
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+
 const signals = [
-  {
-    title: "Academic Foundation",
-    description: "Peer-reviewed research, Wiley publication underway. Developed at Luleå University of Technology and RISE Sweden. References on request.",
-  },
-  {
-    title: "Production Infrastructure",
-    description: "AWS, Cloudflare, PostgreSQL, Redis. Built for reliability and scale.",
-  },
-  {
-    title: "Secure by Design",
-    description: "API key authentication, encrypted data at rest, per-tenant isolation. Your data stays yours.",
-  },
+  { title: t(lang, "trust.academic.title"), description: t(lang, "trust.academic.desc") },
+  { title: t(lang, "trust.infra.title"), description: t(lang, "trust.infra.desc") },
+  { title: t(lang, "trust.secure.title"), description: t(lang, "trust.secure.desc") },
 ];
 ---
 
 <section class="py-20 sm:py-28">
   <div class="mx-auto max-w-4xl px-6">
     <h2 class="text-3xl sm:text-4xl font-bold text-barivia-dark text-center tracking-tight">
-      Built on Trust
+      {t(lang, "trust.heading")}
     </h2>
     <div class="mt-14 grid grid-cols-1 sm:grid-cols-3 gap-8">
       {signals.map((signal) => (
