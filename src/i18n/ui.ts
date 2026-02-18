@@ -12,14 +12,14 @@ export const ui = {
 
     // Hero
     "hero.wordmark": "Barivia AB",
-    "hero.heading": "Find what's hidden<br class=\"hidden sm:block\" /> in your data",
-    "hero.sub": "Detect anomalies, reveal operating regimes, and monitor processes continuously. A proprietary analytics engine that enables insights standard tools simply miss.",
+    "hero.heading": "See the nuance<br class=\"hidden sm:block\" /> in your data",
+    "hero.sub": "Detect anomalies, reveal operating regimes, and monitor processes continuously. New understanding from the data you already have.",
     "hero.ctaPilot": "Start a Pilot",
     "hero.ctaDev": "For Developers",
 
     // What We Do
     "whatWeDo.heading": "What We Do",
-    "whatWeDo.p1": "Barivia AB is a data analytics company built around a proprietary regime-aware analytics platform, purpose-built for process monitoring, anomaly detection, and structured data exploration.",
+    "whatWeDo.p1": "There's structure in your data. We make it visible. Barivia AB is a data analytics company with a proprietary platform for process monitoring, anomaly detection, and structured data exploration.",
     "whatWeDo.p2": "We take your structured data (sensor streams, time series, spreadsheets, exports) and reveal operating modes, regime shifts, and anomalies that standard tools cannot see. The analysis toolkit goes beyond a single algorithm: variable projection, transition flow, cyclic decomposition, and regime classification all work together.",
     "whatWeDo.p3": "You get visual reports and actionable insight: what the normal operating envelope looks like, when something deviates from it, and how regimes shift over time.",
 
@@ -36,7 +36,7 @@ export const ui = {
 
     // Domain Grid
     "domains.heading": "Where It Applies",
-    "domains.sub": "Structured data holds hidden structure across many fields. Here are the domains where we see the most potential.",
+    "domains.sub": "The patterns are there. Standard tools may not see them. Here are the domains where we see the most potential.",
     "domains.energy.title": "Energy & Utilities",
     "domains.energy.desc": "Generation, distribution, and consumption data. Load patterns, anomaly detection.",
     "domains.industrial.title": "Industrial & Process",
@@ -123,7 +123,7 @@ export const ui = {
     "pricing.infrastructureDesc": "AWS compute, Cloudflare edge, PostgreSQL persistence. Production-grade from day one.",
     "pricing.dataSecurity": "Data Security",
     "pricing.dataSecurityDesc": "Encrypted at rest, TLS in transit, per-tenant isolation. Your data never leaves your scope.",
-    "pricing.closing": "A monthly plan replaces days of specialist consulting.",
+    "pricing.closing": "Clarity from complexity. A monthly plan replaces days of specialist consulting.",
 
     // Trust Signals
     "trust.heading": "Built on Trust",
@@ -136,7 +136,7 @@ export const ui = {
 
     // Footer
     "footer.brand": "Barivia AB",
-    "footer.tagline": "Find what's hidden in your data.<br />Built in Sweden.",
+    "footer.tagline": "See the nuance in your data.<br />Built in Sweden.",
     "footer.links": "Links",
     "footer.linkPilot": "Pilot Project",
     "footer.linkDev": "For Developers",
@@ -156,14 +156,14 @@ export const ui = {
 
     // Hero
     "hero.wordmark": "Barivia AB",
-    "hero.heading": "Hitta det som döljer sig<br class=\"hidden sm:block\" /> i din data",
-    "hero.sub": "Detektera anomalier, avslöja driftregimer och övervaka processer kontinuerligt. En proprietär analysmotor som möjliggör insikter standardverktyg helt enkelt missar.",
+    "hero.heading": "Se nyansen<br class=\"hidden sm:block\" /> i din data",
+    "hero.sub": "Detektera anomalier, avslöja driftregimer och övervaka processer kontinuerligt. Ny förståelse från den data du redan har.",
     "hero.ctaPilot": "Starta ett pilotprojekt",
     "hero.ctaDev": "För utvecklare",
 
     // What We Do
     "whatWeDo.heading": "Vad vi gör",
-    "whatWeDo.p1": "Barivia AB är ett dataanalysföretag byggt kring en proprietär regimmedveten analysplattform, skapad för processövervakning, anomalidetektering och strukturerad datautforskning.",
+    "whatWeDo.p1": "Det finns struktur i din data. Vi gör den synlig. Barivia AB är ett dataanalysföretag med en proprietär plattform för processövervakning, anomalidetektering och strukturerad datautforskning.",
     "whatWeDo.p2": "Vi tar din strukturerade data (sensorströmmar, tidsserier, kalkylblad, exporter) och avslöjar driftlägen, regimskiften och anomalier som standardverktyg inte kan se. Analysverktygen går bortom en enskild algoritm: variabelprojektion, transitionsflödesanalys, cyklisk dekomposition och regimklassificering fungerar tillsammans.",
     "whatWeDo.p3": "Du får visuella rapporter och handlingsbara insikter: hur det normala driftomhöljet ser ut, när något avviker från det, och hur regimer förändras över tid.",
 
@@ -180,7 +180,7 @@ export const ui = {
 
     // Domain Grid
     "domains.heading": "Där det passar in",
-    "domains.sub": "Strukturerad data döljer struktur inom många områden. Här ser vi störst potential.",
+    "domains.sub": "Mönstren finns där. Standardverktyg kanske inte ser dem. Här ser vi störst potential.",
     "domains.energy.title": "Energi & Kraftnät",
     "domains.energy.desc": "Produktion, distribution och förbrukningsdata. Lastmönster, anomalidetektering.",
     "domains.industrial.title": "Industri & Process",
@@ -267,7 +267,7 @@ export const ui = {
     "pricing.infrastructureDesc": "AWS-beräkning, Cloudflare edge, PostgreSQL. Produktionskvalitet från dag ett.",
     "pricing.dataSecurity": "Datasäkerhet",
     "pricing.dataSecurityDesc": "Krypterad i vila, TLS vid överföring, per-klient-isolering. Din data lämnar aldrig ditt scope.",
-    "pricing.closing": "En månadsplan ersätter dagars specialistkonsulting.",
+    "pricing.closing": "Klarhet ur komplexitet. En månadsplan ersätter dagars specialistkonsulting.",
 
     // Trust Signals
     "trust.heading": "Byggt på förtroende",
@@ -280,7 +280,7 @@ export const ui = {
 
     // Footer
     "footer.brand": "Barivia AB",
-    "footer.tagline": "Hitta det som döljer sig i din data.<br />Byggt i Sverige.",
+    "footer.tagline": "Se nyansen i din data.<br />Byggt i Sverige.",
     "footer.links": "Länkar",
     "footer.linkPilot": "Pilotprojekt",
     "footer.linkDev": "För utvecklare",
