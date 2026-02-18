@@ -13,7 +13,7 @@ export const ui = {
     // Hero
     "hero.wordmark": "Barivia AB",
     "hero.heading": "See the nuances<br class=\"hidden sm:block\" /> in your data",
-    "hero.sub": "Detect anomalies, reveal operating regimes, and monitor processes continuously. New understanding from the data you already have.",
+    "hero.sub": "Detect anomalies, reveal operating regimes, and monitor processes continuously. New understanding from the data that is already there.",
     "hero.ctaPilot": "Start a Pilot",
     "hero.ctaDev": "For Developers",
 
@@ -157,7 +157,7 @@ export const ui = {
     // Hero
     "hero.wordmark": "Barivia AB",
     "hero.heading": "Se nyanserna<br class=\"hidden sm:block\" /> i din data",
-    "hero.sub": "Detektera anomalier, avslöja driftregimer och övervaka processer kontinuerligt. Ny förståelse från den data du redan har.",
+    "hero.sub": "Detektera anomalier, avslöja driftregimer och övervaka processer kontinuerligt. Ny förståelse från den data som redan finns.",
     "hero.ctaPilot": "Starta ett pilotprojekt",
     "hero.ctaDev": "För utvecklare",
 
