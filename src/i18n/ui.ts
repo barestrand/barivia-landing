@@ -12,7 +12,7 @@ export const ui = {
 
     // Hero
     "hero.wordmark": "Barivia AB",
-    "hero.heading": "See the nuance<br class=\"hidden sm:block\" /> in your data",
+    "hero.heading": "See the nuances<br class=\"hidden sm:block\" /> in your data",
     "hero.sub": "Detect anomalies, reveal operating regimes, and monitor processes continuously. New understanding from the data you already have.",
     "hero.ctaPilot": "Start a Pilot",
     "hero.ctaDev": "For Developers",
@@ -136,7 +136,7 @@ export const ui = {
 
     // Footer
     "footer.brand": "Barivia AB",
-    "footer.tagline": "See the nuance in your data.<br />Built in Sweden.",
+    "footer.tagline": "See the nuances in your data.<br />Built in Sweden.",
     "footer.links": "Links",
     "footer.linkPilot": "Pilot Project",
     "footer.linkDev": "For Developers",
@@ -156,7 +156,7 @@ export const ui = {
 
     // Hero
     "hero.wordmark": "Barivia AB",
-    "hero.heading": "Se nyansen<br class=\"hidden sm:block\" /> i din data",
+    "hero.heading": "Se nyanserna<br class=\"hidden sm:block\" /> i din data",
     "hero.sub": "Detektera anomalier, avslöja driftregimer och övervaka processer kontinuerligt. Ny förståelse från den data du redan har.",
     "hero.ctaPilot": "Starta ett pilotprojekt",
     "hero.ctaDev": "För utvecklare",
@@ -280,7 +280,7 @@ export const ui = {
 
     // Footer
     "footer.brand": "Barivia AB",
-    "footer.tagline": "Se nyansen i din data.<br />Byggt i Sverige.",
+    "footer.tagline": "Se nyanserna i din data.<br />Byggt i Sverige.",
     "footer.links": "Länkar",
     "footer.linkPilot": "Pilotprojekt",
     "footer.linkDev": "För utvecklare",
