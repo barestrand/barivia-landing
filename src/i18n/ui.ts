@@ -12,8 +12,8 @@ export const ui = {
 
     // Hero
     "hero.wordmark": "Barivia AB",
-    "hero.heading": "Anomaly Detection &amp; Regime Analysis<br class=\"hidden sm:block\" /> as a Service",
-    "hero.sub": "Find what's hidden in your data. Detect anomalies, reveal operating regimes, and monitor processes, enabling insights that standard tools simply miss.",
+    "hero.heading": "Find what's hidden<br class=\"hidden sm:block\" /> in your data",
+    "hero.sub": "Detect anomalies, reveal operating regimes, and monitor processes continuously. A proprietary analytics engine that enables insights standard tools simply miss.",
     "hero.ctaPilot": "Start a Pilot",
     "hero.ctaDev": "For Developers",
 
@@ -136,7 +136,7 @@ export const ui = {
 
     // Footer
     "footer.brand": "Barivia AB",
-    "footer.tagline": "Process monitoring &amp; regime analysis, as a Service.<br />Built in Sweden.",
+    "footer.tagline": "Find what's hidden in your data.<br />Built in Sweden.",
     "footer.links": "Links",
     "footer.linkPilot": "Pilot Project",
     "footer.linkDev": "For Developers",
@@ -156,8 +156,8 @@ export const ui = {
 
     // Hero
     "hero.wordmark": "Barivia AB",
-    "hero.heading": "Anomalidetektering &amp; Regimanalys<br class=\"hidden sm:block\" /> som tjänst",
-    "hero.sub": "Hitta det som döljer sig i din data. Detektera anomalier, avslöja driftregimer och övervaka processer, och möjliggör insikter som standardverktyg helt enkelt missar.",
+    "hero.heading": "Hitta det som döljer sig<br class=\"hidden sm:block\" /> i din data",
+    "hero.sub": "Detektera anomalier, avslöja driftregimer och övervaka processer kontinuerligt. En proprietär analysmotor som möjliggör insikter standardverktyg helt enkelt missar.",
     "hero.ctaPilot": "Starta ett pilotprojekt",
     "hero.ctaDev": "För utvecklare",
 
@@ -280,7 +280,7 @@ export const ui = {
 
     // Footer
     "footer.brand": "Barivia AB",
-    "footer.tagline": "Processövervakning &amp; regimanalys, som tjänst.<br />Byggt i Sverige.",
+    "footer.tagline": "Hitta det som döljer sig i din data.<br />Byggt i Sverige.",
     "footer.links": "Länkar",
     "footer.linkPilot": "Pilotprojekt",
     "footer.linkDev": "För utvecklare",
