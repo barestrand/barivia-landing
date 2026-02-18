@@ -12,16 +12,16 @@ export const ui = {
 
     // Hero
     "hero.wordmark": "Barivia AB",
-    "hero.heading": "See the nuances<br class=\"hidden sm:block\" /> in your data",
+    "hero.heading": "Perceive the nuances<br class=\"hidden sm:block\" /> in your data",
     "hero.sub": "Detect anomalies, reveal operating regimes, and monitor processes continuously. New understanding from the data that is already there.",
     "hero.ctaPilot": "Start a Pilot",
     "hero.ctaDev": "For Developers",
 
     // What We Do
     "whatWeDo.heading": "What We Do",
-    "whatWeDo.p1": "There's structure in your data. We make it visible. Barivia AB is a data analytics company with a proprietary platform for process monitoring, anomaly detection, and structured data exploration.",
-    "whatWeDo.p2": "We take your structured data (sensor streams, time series, spreadsheets, exports) and reveal operating modes, regime shifts, and anomalies that standard tools cannot see. The analysis toolkit goes beyond a single algorithm: variable projection, transition flow, cyclic decomposition, and regime classification all work together.",
-    "whatWeDo.p3": "You get visual reports and actionable insight: what the normal operating envelope looks like, when something deviates from it, and how regimes shift over time.",
+    "whatWeDo.p1": "There is structure in your data. Our platform brings it to light. Barivia AB is a data analytics company with a proprietary engine for process monitoring, anomaly detection, and structured data exploration.",
+    "whatWeDo.p2": "From structured data (sensor streams, time series, spreadsheets, exports) operating modes, regime shifts, and anomalies emerge that standard tools cannot surface. The analysis toolkit goes beyond a single algorithm: variable projection, transition flow, cyclic decomposition, and regime classification work together.",
+    "whatWeDo.p3": "The result: visual reports and actionable insight. What the normal operating envelope looks like, when something deviates, and how regimes shift over time.",
 
     // How It Works
     "how.heading": "How It Works",
@@ -30,9 +30,9 @@ export const ui = {
     "how.step2.title": "We run the analysis",
     "how.step2.desc": "On secure, high-performance infrastructure using our proprietary platform.",
     "how.step3.title": "Visual insights report",
-    "how.step3.desc": "You receive maps, patterns, and a written brief. Delivered within days.",
+    "how.step3.desc": "Maps, patterns, and a written brief. Delivered within days.",
     "how.step4.title": "Findings walkthrough",
-    "how.step4.desc": "We walk you through the results and their implications for your business.",
+    "how.step4.desc": "A walkthrough of the results and what they mean for your work.",
 
     // Domain Grid
     "domains.heading": "Where It Applies",
@@ -52,18 +52,18 @@ export const ui = {
 
     // Monitoring
     "monitoring.heading": "Continuous Monitoring",
-    "monitoring.sub": "Connect Barivia to your live data streams and monitor processes continuously. Trained on your historical data, the platform projects new readings in real time, alerting you the moment something shifts.",
+    "monitoring.sub": "When connected to live data streams, the platform monitors processes continuously. Trained on historical data, it projects new readings in real time and surfaces alerts the moment something shifts.",
     "monitoring.anomaly.title": "Anomaly Detection",
-    "monitoring.anomaly.desc": "Get alerted the moment something deviates from normal behaviour.",
+    "monitoring.anomaly.desc": "An alert surfaces the moment something deviates from normal behaviour.",
     "monitoring.live.title": "Live Process Analysis",
     "monitoring.live.desc": "Watch patterns form and shift as new data arrives, not after the fact.",
     "monitoring.continuous.title": "Continuous Insight",
     "monitoring.continuous.desc": "Automated updates so your understanding stays current, not stale.",
-    "monitoring.closing": "Production lines, energy grids, sensor fleets. Connect any flowing data stream for continuous, AI-driven oversight.",
+    "monitoring.closing": "Production lines, energy grids, sensor fleets. Wherever data flows, continuous oversight follows.",
 
     // Pilot CTA
-    "pilot.heading": "Get Started: Pilot Project",
-    "pilot.sub": "Pick one dataset that matters to your business. We run the full process (analysis, visual report, and findings walkthrough) so you can evaluate on real data before committing further.",
+    "pilot.heading": "Pilot Project",
+    "pilot.sub": "Choose one dataset that matters. The full process runs on your real data (analysis, visual report, and findings walkthrough) so you can evaluate before committing further.",
     "pilot.scope": "Scope",
     "pilot.scopeDesc": "One dataset, one complete analysis cycle",
     "pilot.deliverable": "Deliverable",
@@ -77,13 +77,13 @@ export const ui = {
     // Developer Section
     "dev.label": "For Developers",
     "dev.heading": "AI-Driven Pattern Discovery",
-    "dev.sub": "The Barivia Analytics Engine delivers anomaly detection, regime analysis, and process monitoring as an MCP server inside any AI assistant you already use. Human-in-the-loop for exploration, fully automated for continuous monitoring.",
+    "dev.sub": "The Barivia Analytics Engine brings anomaly detection, regime analysis, and process monitoring into any AI assistant as an MCP server. Human-in-the-loop for exploration, fully automated for continuous monitoring.",
     "dev.step1.title": "Connect",
     "dev.step1.desc": "Add the Barivia Analytics Engine to Cursor, Claude, Gemini, or any MCP-compatible AI tool. One line of config.",
     "dev.step2.title": "Describe",
     "dev.step2.desc": "Upload your data and tell the AI what you're looking for. No code required.",
     "dev.step3.title": "Discover",
-    "dev.step3.desc": "The Analytics Engine trains, analyzes, and visualizes patterns. You get maps, regimes, and metrics back. Or run continuously: agents project new data and trigger alerts automatically.",
+    "dev.step3.desc": "The Analytics Engine trains, analyzes, and visualizes. Maps, regimes, and metrics emerge. Or run continuously: agents project new data and surface alerts automatically.",
     "dev.worksWith": "Works with",
 
     // Pricing
@@ -112,7 +112,7 @@ export const ui = {
     "pricing.enterpriseF2": "GPU-accelerated compute",
     "pricing.enterpriseF3": "On-premise option",
     "pricing.enterpriseF4": "SLA guarantee",
-    "pricing.ctaEarly": "Get Early Access",
+    "pricing.ctaEarly": "Request Early Access",
     "pricing.ctaEnterprise": "Contact Us",
     "pricing.pillarsHeading": "What Every Plan Includes",
     "pricing.algorithms": "Analytics Engine",
@@ -123,7 +123,7 @@ export const ui = {
     "pricing.infrastructureDesc": "AWS compute, Cloudflare edge, PostgreSQL persistence. Production-grade from day one.",
     "pricing.dataSecurity": "Data Security",
     "pricing.dataSecurityDesc": "Encrypted at rest, TLS in transit, per-tenant isolation. Your data never leaves your scope.",
-    "pricing.closing": "Clarity from complexity. A monthly plan replaces days of specialist consulting.",
+    "pricing.closing": "Clarity from complexity. One platform instead of days of specialist consulting.",
 
     // Trust Signals
     "trust.heading": "Built on Trust",
@@ -136,7 +136,7 @@ export const ui = {
 
     // Footer
     "footer.brand": "Barivia AB",
-    "footer.tagline": "See the nuances in your data.<br />Built in Sweden.",
+    "footer.tagline": "Perceive the nuances in your data.<br />Built in Sweden.",
     "footer.links": "Links",
     "footer.linkPilot": "Pilot Project",
     "footer.linkDev": "For Developers",
@@ -156,16 +156,16 @@ export const ui = {
 
     // Hero
     "hero.wordmark": "Barivia AB",
-    "hero.heading": "Se nyanserna<br class=\"hidden sm:block\" /> i din data",
-    "hero.sub": "Detektera anomalier, avslöja driftregimer och övervaka processer kontinuerligt. Ny förståelse från den data som redan finns.",
+    "hero.heading": "Urskilj nyanserna<br class=\"hidden sm:block\" /> i din data",
+    "hero.sub": "Detektera anomalier, avslöja driftregimer och monitorera processer kontinuerligt. Ny förståelse från den data som redan finns.",
     "hero.ctaPilot": "Starta ett pilotprojekt",
     "hero.ctaDev": "För utvecklare",
 
     // What We Do
     "whatWeDo.heading": "Vad vi gör",
-    "whatWeDo.p1": "Det finns struktur i din data. Vi gör den synlig. Barivia AB är ett dataanalysföretag med en proprietär plattform för processövervakning, anomalidetektering och strukturerad datautforskning.",
-    "whatWeDo.p2": "Vi tar din strukturerade data (sensorströmmar, tidsserier, kalkylblad, exporter) och avslöjar driftlägen, regimskiften och anomalier som standardverktyg inte kan se. Analysverktygen går bortom en enskild algoritm: variabelprojektion, transitionsflödesanalys, cyklisk dekomposition och regimklassificering fungerar tillsammans.",
-    "whatWeDo.p3": "Du får visuella rapporter och handlingsbara insikter: hur det normala driftomhöljet ser ut, när något avviker från det, och hur regimer förändras över tid.",
+    "whatWeDo.p1": "Det finns struktur i din data. Vår plattform synliggör den. Barivia AB är ett dataanalysföretag med en proprietär motor för processmonitorering, anomalidetektering och strukturerad datautforskning.",
+    "whatWeDo.p2": "Från strukturerad data (sensorströmmar, tidsserier, kalkylblad, exporter) framträder driftlägen, regimskiften och anomalier som standardverktyg inte kan nå. Analysverktygen går bortom en enskild algoritm: variabelprojektion, transitionsflödesanalys, cyklisk dekomposition och regimklassificering fungerar tillsammans.",
+    "whatWeDo.p3": "Resultatet: visuella rapporter och handlingsbara insikter. Hur det normala driftomhöljet ser ut, när något avviker, och hur regimer förändras över tid.",
 
     // How It Works
     "how.heading": "Så fungerar det",
@@ -174,9 +174,9 @@ export const ui = {
     "how.step2.title": "Vi kör analysen",
     "how.step2.desc": "På säker, högpresterande infrastruktur med vår proprietära plattform.",
     "how.step3.title": "Visuell insiktsrapport",
-    "how.step3.desc": "Du får kartor, mönster och en skriftlig sammanfattning. Levereras inom dagar.",
+    "how.step3.desc": "Kartor, mönster och en skriftlig sammanfattning. Levereras inom dagar.",
     "how.step4.title": "Genomgång av resultat",
-    "how.step4.desc": "Vi går igenom resultaten och vad de innebär för din verksamhet.",
+    "how.step4.desc": "En genomgång av resultaten och vad de innebär för din verksamhet.",
 
     // Domain Grid
     "domains.heading": "Där det passar in",
@@ -184,30 +184,30 @@ export const ui = {
     "domains.energy.title": "Energi & Kraftnät",
     "domains.energy.desc": "Produktion, distribution och förbrukningsdata. Lastmönster, anomalidetektering.",
     "domains.industrial.title": "Industri & Process",
-    "domains.industrial.desc": "Högfrekventa sensorströmmar. Driftlägen, processövervakning, felprekursorer.",
+    "domains.industrial.desc": "Högfrekventa sensorströmmar. Driftlägen, processmonitorering, felprekursorer.",
     "domains.finance.title": "Finans",
     "domains.finance.desc": "Marknadsregimer, tvärtillgångsdynamik, temporala strukturer i prisdata.",
     "domains.business.title": "Affärsverksamhet",
     "domains.business.desc": "Kundsegmentering, operativa mönster, beteendeanalys.",
     "domains.environmental.title": "Miljö",
-    "domains.environmental.desc": "Vädermönster, säsongscykler, spatial klustring i övervakningsdata.",
+    "domains.environmental.desc": "Vädermönster, säsongscykler, spatial klustring i monitoreringsdata.",
     "domains.biomedical.title": "Biomedicin",
     "domains.biomedical.desc": "Spektrala signaturer, klassificering, feature-extraktion ur komplex data.",
 
     // Monitoring
-    "monitoring.heading": "Kontinuerlig övervakning",
-    "monitoring.sub": "Anslut Barivia till dina livedataströmmar och övervaka processer kontinuerligt. Tränad på din historiska data projicerar plattformen nya mätningar i realtid, och varnar dig i samma ögonblick något förändras.",
+    "monitoring.heading": "Kontinuerlig monitorering",
+    "monitoring.sub": "Ansluten till livedataströmmar monitorerar plattformen processer kontinuerligt. Tränad på historisk data projicerar den nya mätningar i realtid och lyfter fram avvikelser i samma ögonblick något förändras.",
     "monitoring.anomaly.title": "Anomalidetektering",
-    "monitoring.anomaly.desc": "Bli varnad i samma ögonblick något avviker från normalt beteende.",
+    "monitoring.anomaly.desc": "En varning lyfts fram i samma ögonblick något avviker från normalt beteende.",
     "monitoring.live.title": "Liveprocessanalys",
     "monitoring.live.desc": "Se mönster bildas och förändras allteftersom ny data anländer, inte i efterhand.",
     "monitoring.continuous.title": "Kontinuerlig insikt",
     "monitoring.continuous.desc": "Automatiska uppdateringar så att din förståelse hålls aktuell, inte inaktuell.",
-    "monitoring.closing": "Produktionslinjer, elnät, sensorflottor. Anslut valfri dataström för kontinuerlig, AI-driven övervakning.",
+    "monitoring.closing": "Produktionslinjer, elnät, sensorflottor. Där data flödar följer kontinuerlig monitorering.",
 
     // Pilot CTA
-    "pilot.heading": "Kom igång: Pilotprojekt",
-    "pilot.sub": "Välj ett dataset som är viktigt för din verksamhet. Vi kör hela processen (analys, visuell rapport och genomgång) så att du kan utvärdera på riktiga data innan du går vidare.",
+    "pilot.heading": "Pilotprojekt",
+    "pilot.sub": "Välj ett dataset som är viktigt. Hela processen körs på riktig data (analys, visuell rapport och genomgång) så att du kan utvärdera innan du går vidare.",
     "pilot.scope": "Omfattning",
     "pilot.scopeDesc": "Ett dataset, en komplett analyscykel",
     "pilot.deliverable": "Leverans",
@@ -221,13 +221,13 @@ export const ui = {
     // Developer Section
     "dev.label": "För utvecklare",
     "dev.heading": "AI-driven mönsterupptäckt",
-    "dev.sub": "Barivia Analytics Engine levererar anomalidetektering, regimanalys och processövervakning som en MCP-server direkt i valfri AI-assistent du redan använder. Människa i loopen för utforskning, helt automatiserat för kontinuerlig övervakning.",
+    "dev.sub": "Barivia Analytics Engine gör anomalidetektering, regimanalys och processmonitorering tillgängligt i valfri AI-assistent som MCP-server. Människa i loopen för utforskning, helt automatiserat för kontinuerlig monitorering.",
     "dev.step1.title": "Anslut",
     "dev.step1.desc": "Lägg till Barivia Analytics Engine i Cursor, Claude, Gemini eller valfritt MCP-kompatibelt AI-verktyg. En rad konfiguration.",
     "dev.step2.title": "Beskriv",
     "dev.step2.desc": "Ladda upp din data och berätta för AI:n vad du letar efter. Ingen kod krävs.",
     "dev.step3.title": "Upptäck",
-    "dev.step3.desc": "Analytics Engine tränar, analyserar och visualiserar mönster. Du får kartor, regimer och mätvärden tillbaka. Eller kör kontinuerligt: agenter projicerar ny data och triggar larm automatiskt.",
+    "dev.step3.desc": "Analytics Engine tränar, analyserar och visualiserar. Kartor, regimer och mätvärden framträder. Eller kör kontinuerligt: agenter projicerar ny data och lyfter fram avvikelser automatiskt.",
     "dev.worksWith": "Fungerar med",
 
     // Pricing
@@ -242,12 +242,12 @@ export const ui = {
     "pricing.professionalAud": "Processingenjörer, analytiker & datavetare",
     "pricing.professionalF1": "Dataset upp till 1 miljon rader",
     "pricing.professionalF2": "Parallella analysjobb",
-    "pricing.professionalF3": "Anomaliövervakning",
+    "pricing.professionalF3": "Anomalimonitorering",
     "pricing.professionalF4": "Prioriterad support",
     "pricing.team": "Team",
     "pricing.teamAud": "Konsultfirmor, avdelningar & driftteam",
     "pricing.teamF1": "Flera teamsäten",
-    "pricing.teamF2": "Kontinuerliga övervakningspipelines",
+    "pricing.teamF2": "Kontinuerliga monitoreringspipelines",
     "pricing.teamF3": "Hög genomströmning",
     "pricing.teamF4": "Dedikerad support",
     "pricing.enterprise": "Enterprise",
@@ -256,7 +256,7 @@ export const ui = {
     "pricing.enterpriseF2": "GPU-accelererad beräkning",
     "pricing.enterpriseF3": "On-premise-alternativ",
     "pricing.enterpriseF4": "SLA-garanti",
-    "pricing.ctaEarly": "Få tidig tillgång",
+    "pricing.ctaEarly": "Begär tidig tillgång",
     "pricing.ctaEnterprise": "Kontakta oss",
     "pricing.pillarsHeading": "Vad varje plan inkluderar",
     "pricing.algorithms": "Analysmotor",
@@ -267,7 +267,7 @@ export const ui = {
     "pricing.infrastructureDesc": "AWS-beräkning, Cloudflare edge, PostgreSQL. Produktionskvalitet från dag ett.",
     "pricing.dataSecurity": "Datasäkerhet",
     "pricing.dataSecurityDesc": "Krypterad i vila, TLS vid överföring, per-klient-isolering. Din data lämnar aldrig ditt scope.",
-    "pricing.closing": "Klarhet ur komplexitet. En månadsplan ersätter dagars specialistkonsulting.",
+    "pricing.closing": "Klarhet ur komplexitet. En plattform istället för dagars specialistkonsulting.",
 
     // Trust Signals
     "trust.heading": "Byggt på förtroende",
@@ -280,7 +280,7 @@ export const ui = {
 
     // Footer
     "footer.brand": "Barivia AB",
-    "footer.tagline": "Se nyanserna i din data.<br />Byggt i Sverige.",
+    "footer.tagline": "Urskilj nyanserna i din data.<br />Byggt i Sverige.",
     "footer.links": "Länkar",
     "footer.linkPilot": "Pilotprojekt",
     "footer.linkDev": "För utvecklare",
