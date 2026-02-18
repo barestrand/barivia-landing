@@ -12,16 +12,16 @@ export const ui = {
 
     // Hero
     "hero.wordmark": "Barivia AB",
-    "hero.heading": "Data Intelligence<br class=\"hidden sm:block\" /> as a Service",
-    "hero.sub": "We find what's hidden in your data. Proprietary analytics that surface patterns, segments, and dynamics standard tools cannot see.",
+    "hero.heading": "Anomaly Detection &amp; Regime Analysis<br class=\"hidden sm:block\" /> as a Service",
+    "hero.sub": "Detect anomalies, reveal operating regimes, and monitor processes continuously — using a proprietary analytics engine built for structured data. No coding required.",
     "hero.ctaPilot": "Start a Pilot",
     "hero.ctaDev": "For Developers",
 
     // What We Do
     "whatWeDo.heading": "What We Do",
-    "whatWeDo.p1": "Barivia AB is a data analytics company with a proprietary analysis platform built from the ground up.",
-    "whatWeDo.p2": "We take your structured data — spreadsheets, exports, time series, logs — and uncover patterns, segments, and dynamics that standard BI tools simply cannot see.",
-    "whatWeDo.p3": "You get visual reports and actionable insights: what's happening, what's normal, what's unusual, and where things are heading.",
+    "whatWeDo.p1": "Barivia AB is a data analytics company built around a proprietary regime-aware analytics platform — purpose-built for process monitoring, anomaly detection, and structured data exploration.",
+    "whatWeDo.p2": "We take your structured data — sensor streams, time series, spreadsheets, exports — and reveal operating modes, regime shifts, and anomalies that standard tools cannot see. The analysis toolkit goes beyond a single algorithm: variable projection, transition flow, cyclic decomposition, and regime classification all work together.",
+    "whatWeDo.p3": "You get visual reports and actionable insight: what the normal operating envelope looks like, when something deviates from it, and how regimes shift over time.",
 
     // How It Works
     "how.heading": "How It Works",
@@ -52,14 +52,14 @@ export const ui = {
 
     // Monitoring
     "monitoring.heading": "Continuous Monitoring",
-    "monitoring.sub": "Beyond one-off analysis, Barivia AB can connect to your live data streams and monitor processes in real time.",
+    "monitoring.sub": "Connect Barivia to your live data streams and monitor processes continuously. Trained on your historical data, the platform projects new readings in real time — alerting you the moment something shifts.",
     "monitoring.anomaly.title": "Anomaly Detection",
     "monitoring.anomaly.desc": "Get alerted the moment something deviates from normal behaviour.",
     "monitoring.live.title": "Live Process Analysis",
     "monitoring.live.desc": "Watch patterns form and shift as new data arrives — not after the fact.",
     "monitoring.continuous.title": "Continuous Insight",
     "monitoring.continuous.desc": "Automated updates so your understanding stays current, not stale.",
-    "monitoring.closing": "Production lines, energy grids, sensor fleets — if the data is flowing, we can watch it.",
+    "monitoring.closing": "Production lines, energy grids, sensor fleets — connect any flowing data stream for continuous, AI-driven oversight.",
 
     // Pilot CTA
     "pilot.heading": "Get Started — Pilot Project",
@@ -77,13 +77,13 @@ export const ui = {
     // Developer Section
     "dev.label": "For Developers",
     "dev.heading": "AI-Driven Pattern Discovery",
-    "dev.sub": "The Barivia Analytics Engine turns complex datasets into actionable insights — delivered as an MCP server to any AI assistant you already use. One config line, no server setup.",
+    "dev.sub": "The Barivia Analytics Engine delivers anomaly detection, regime analysis, and process monitoring as an MCP server — inside any AI assistant you already use. Human-in-the-loop for exploration, fully automated for continuous monitoring.",
     "dev.step1.title": "Connect",
     "dev.step1.desc": "Add the Barivia Analytics Engine to Cursor, Claude, Gemini, or any MCP-compatible AI tool. One line of config.",
     "dev.step2.title": "Describe",
     "dev.step2.desc": "Upload your data and tell the AI what you're looking for. No code required.",
     "dev.step3.title": "Discover",
-    "dev.step3.desc": "The Analytics Engine trains, analyzes, and visualizes patterns. You get maps, regimes, and metrics back.",
+    "dev.step3.desc": "The Analytics Engine trains, analyzes, and visualizes patterns — returning maps, regimes, and metrics. Or run continuously: agents project new data and trigger alerts automatically.",
     "dev.worksWith": "Works with",
 
     // Pricing
@@ -91,20 +91,20 @@ export const ui = {
     "pricing.sub": "Start free, then scale as your analysis needs grow. Every plan runs the same engine on the same infrastructure — no feature gates on quality.",
     "pricing.explorer": "Explorer",
     "pricing.explorerAud": "Try it out — no commitment",
-    "pricing.explorerF1": "One-time credit pack",
-    "pricing.explorerF2": "Standard grid sizes",
-    "pricing.explorerF3": "Community support",
+    "pricing.explorerF1": "Datasets up to 10,000 rows",
+    "pricing.explorerF2": "Single analysis run",
+    "pricing.explorerF3": "Email support",
     "pricing.professional": "Professional",
-    "pricing.professionalAud": "Engineers & data scientists",
-    "pricing.professionalF1": "Monthly credit allowance",
-    "pricing.professionalF2": "Large grid sizes",
-    "pricing.professionalF3": "Concurrent jobs",
+    "pricing.professionalAud": "Process engineers, analysts & data scientists",
+    "pricing.professionalF1": "Datasets up to 1 million rows",
+    "pricing.professionalF2": "Concurrent analysis jobs",
+    "pricing.professionalF3": "Anomaly monitoring",
     "pricing.professionalF4": "Priority support",
     "pricing.team": "Team",
-    "pricing.teamAud": "Consulting firms & departments",
-    "pricing.teamF1": "Generous credit pool",
-    "pricing.teamF2": "Full grid sizes",
-    "pricing.teamF3": "Parallel workloads",
+    "pricing.teamAud": "Consulting firms, departments & ops teams",
+    "pricing.teamF1": "Multiple team seats",
+    "pricing.teamF2": "Continuous monitoring pipelines",
+    "pricing.teamF3": "High-throughput workloads",
     "pricing.teamF4": "Dedicated support",
     "pricing.enterprise": "Enterprise",
     "pricing.enterpriseAud": "Custom capacity, SLA, SSO",
@@ -115,8 +115,8 @@ export const ui = {
     "pricing.ctaEarly": "Get Early Access",
     "pricing.ctaEnterprise": "Contact Us",
     "pricing.pillarsHeading": "What Every Plan Includes",
-    "pricing.algorithms": "Algorithms",
-    "pricing.algorithmsDesc": "Proprietary Self-Organizing Map engine — published research, not off-the-shelf clustering.",
+    "pricing.algorithms": "Analytics Engine",
+    "pricing.algorithmsDesc": "Proprietary platform for anomaly detection, regime classification, and pattern analysis — built on published research, not off-the-shelf tools.",
     "pricing.performance": "Performance",
     "pricing.performanceDesc": "Optimized Julia core with GPU-ready paths. Large datasets finish in minutes, not hours.",
     "pricing.infrastructure": "Infrastructure",
@@ -128,7 +128,7 @@ export const ui = {
     // Trust Signals
     "trust.heading": "Built on Trust",
     "trust.academic.title": "Academic Foundation",
-    "trust.academic.desc": "Peer-reviewed research, Wiley publication underway. Developed at Luleå University of Technology and RISE Sweden. References on request.",
+    "trust.academic.desc": "References on request.",
     "trust.infra.title": "Production Infrastructure",
     "trust.infra.desc": "AWS, Cloudflare, PostgreSQL, Redis. Built for reliability and scale.",
     "trust.secure.title": "Secure by Design",
@@ -136,7 +136,7 @@ export const ui = {
 
     // Footer
     "footer.brand": "Barivia AB",
-    "footer.tagline": "Data Intelligence as a Service.<br />Built in Sweden.",
+    "footer.tagline": "Process monitoring &amp; regime analysis, as a Service.<br />Built in Sweden.",
     "footer.links": "Links",
     "footer.linkPilot": "Pilot Project",
     "footer.linkDev": "For Developers",
@@ -156,16 +156,16 @@ export const ui = {
 
     // Hero
     "hero.wordmark": "Barivia AB",
-    "hero.heading": "Dataintelligens<br class=\"hidden sm:block\" /> som tjänst",
-    "hero.sub": "Vi hittar det som är dolt i din data. Proprietär analys som synliggör mönster, segment och dynamik som standardverktyg inte kan se.",
+    "hero.heading": "Anomalidetektering &amp; Regimanalys<br class=\"hidden sm:block\" /> som tjänst",
+    "hero.sub": "Detektera anomalier, avslöja driftregimer och övervaka processer kontinuerligt — med en proprietär analysmotor byggd för strukturerad data. Ingen kod krävs.",
     "hero.ctaPilot": "Starta ett pilotprojekt",
     "hero.ctaDev": "För utvecklare",
 
     // What We Do
     "whatWeDo.heading": "Vad vi gör",
-    "whatWeDo.p1": "Barivia AB är ett dataanalysföretag med en proprietär analysplattform byggd från grunden.",
-    "whatWeDo.p2": "Vi tar din strukturerade data — kalkylblad, exporter, tidsserier, loggar — och avslöjar mönster, segment och dynamik som vanliga BI-verktyg helt enkelt inte kan se.",
-    "whatWeDo.p3": "Du får visuella rapporter och handlingsbara insikter: vad som händer, vad som är normalt, vad som är ovanligt, och vart saker är på väg.",
+    "whatWeDo.p1": "Barivia AB är ett dataanalysföretag byggt kring en proprietär regimmedveten analysplattform — skapad för processövervakning, anomalidetektering och strukturerad datautforskning.",
+    "whatWeDo.p2": "Vi tar din strukturerade data — sensorströmmar, tidsserier, kalkylblad, exporter — och avslöjar driftlägen, regimskiften och anomalier som standardverktyg inte kan se. Analysverktygsuppsättningen går bortom en enskild algoritm: variabelprojektion, transitionsflödesanalys, cyklisk dekomposition och regimklassificering fungerar tillsammans.",
+    "whatWeDo.p3": "Du får visuella rapporter och handlingsbara insikter: hur det normala driftomhöljet ser ut, när något avviker från det, och hur regimer förändras över tid.",
 
     // How It Works
     "how.heading": "Så fungerar det",
@@ -196,14 +196,14 @@ export const ui = {
 
     // Monitoring
     "monitoring.heading": "Kontinuerlig övervakning",
-    "monitoring.sub": "Utöver engångsanalys kan Barivia AB ansluta till dina livedataströmmar och övervaka processer i realtid.",
+    "monitoring.sub": "Anslut Barivia till dina livedataströmmar och övervaka processer kontinuerligt. Tränad på din historiska data projicerar plattformen nya mätningar i realtid — och varnar dig i samma ögonblick något förändras.",
     "monitoring.anomaly.title": "Anomalidetektering",
     "monitoring.anomaly.desc": "Bli varnad i samma ögonblick något avviker från normalt beteende.",
     "monitoring.live.title": "Liveprocessanalys",
     "monitoring.live.desc": "Se mönster bildas och förändras allteftersom ny data anländer — inte i efterhand.",
     "monitoring.continuous.title": "Kontinuerlig insikt",
     "monitoring.continuous.desc": "Automatiska uppdateringar så att din förståelse hålls aktuell, inte inaktuell.",
-    "monitoring.closing": "Produktionslinjer, elnät, sensorflottor — om data flödar kan vi bevaka det.",
+    "monitoring.closing": "Produktionslinjer, elnät, sensorflottor — anslut valfri dataström för kontinuerlig, AI-driven övervakning.",
 
     // Pilot CTA
     "pilot.heading": "Kom igång — Pilotprojekt",
@@ -221,13 +221,13 @@ export const ui = {
     // Developer Section
     "dev.label": "För utvecklare",
     "dev.heading": "AI-driven mönsterupptäckt",
-    "dev.sub": "Barivia Analytics Engine förvandlar komplexa dataset till handlingsbara insikter — levererad som en MCP-server till valfri AI-assistent du redan använder. En rad konfiguration, ingen serverinstallation.",
+    "dev.sub": "Barivia Analytics Engine levererar anomalidetektering, regimanalys och processövervakning som en MCP-server — direkt i valfri AI-assistent du redan använder. Människa i loopen för utforskning, helt automatiserat för kontinuerlig övervakning.",
     "dev.step1.title": "Anslut",
     "dev.step1.desc": "Lägg till Barivia Analytics Engine i Cursor, Claude, Gemini eller valfritt MCP-kompatibelt AI-verktyg. En rad konfiguration.",
     "dev.step2.title": "Beskriv",
     "dev.step2.desc": "Ladda upp din data och berätta för AI:n vad du letar efter. Ingen kod krävs.",
     "dev.step3.title": "Upptäck",
-    "dev.step3.desc": "Analytics Engine tränar, analyserar och visualiserar mönster. Du får kartor, regimer och mätvärden tillbaka.",
+    "dev.step3.desc": "Analytics Engine tränar, analyserar och visualiserar mönster — och returnerar kartor, regimer och mätvärden. Eller kör kontinuerligt: agenter projicerar ny data och triggar larm automatiskt.",
     "dev.worksWith": "Fungerar med",
 
     // Pricing
@@ -235,20 +235,20 @@ export const ui = {
     "pricing.sub": "Börja gratis, skala sedan allteftersom dina analysbehov växer. Varje plan kör samma motor på samma infrastruktur — inga funktionslås på kvalitet.",
     "pricing.explorer": "Explorer",
     "pricing.explorerAud": "Prova — inget åtagande",
-    "pricing.explorerF1": "Engångskreditpaket",
-    "pricing.explorerF2": "Standardstorlekar på grid",
-    "pricing.explorerF3": "Communitysupport",
+    "pricing.explorerF1": "Dataset upp till 10 000 rader",
+    "pricing.explorerF2": "En analysomgång",
+    "pricing.explorerF3": "E-postsupport",
     "pricing.professional": "Professional",
-    "pricing.professionalAud": "Ingenjörer & datavetare",
-    "pricing.professionalF1": "Månatlig kreditpott",
-    "pricing.professionalF2": "Stora gridstorlekar",
-    "pricing.professionalF3": "Parallella jobb",
+    "pricing.professionalAud": "Processingenjörer, analytiker & datavetare",
+    "pricing.professionalF1": "Dataset upp till 1 miljon rader",
+    "pricing.professionalF2": "Parallella analysjobb",
+    "pricing.professionalF3": "Anomaliövervakning",
     "pricing.professionalF4": "Prioriterad support",
     "pricing.team": "Team",
-    "pricing.teamAud": "Konsultfirmor & avdelningar",
-    "pricing.teamF1": "Generös kreditpool",
-    "pricing.teamF2": "Fulla gridstorlekar",
-    "pricing.teamF3": "Parallella arbetsbelastningar",
+    "pricing.teamAud": "Konsultfirmor, avdelningar & driftteam",
+    "pricing.teamF1": "Flera teamsäten",
+    "pricing.teamF2": "Kontinuerliga övervakningspipelines",
+    "pricing.teamF3": "Hög genomströmning",
     "pricing.teamF4": "Dedikerad support",
     "pricing.enterprise": "Enterprise",
     "pricing.enterpriseAud": "Anpassad kapacitet, SLA, SSO",
@@ -259,8 +259,8 @@ export const ui = {
     "pricing.ctaEarly": "Få tidig tillgång",
     "pricing.ctaEnterprise": "Kontakta oss",
     "pricing.pillarsHeading": "Vad varje plan inkluderar",
-    "pricing.algorithms": "Algoritmer",
-    "pricing.algorithmsDesc": "Proprietär Self-Organizing Map-motor — publicerad forskning, inte standardklustring.",
+    "pricing.algorithms": "Analysmotor",
+    "pricing.algorithmsDesc": "Proprietär plattform för anomalidetektering, regimklassificering och mönsteranalys — byggd på publicerad forskning, inte standardverktyg.",
     "pricing.performance": "Prestanda",
     "pricing.performanceDesc": "Optimerad Julia-kärna med GPU-redo vägar. Stora dataset klara på minuter, inte timmar.",
     "pricing.infrastructure": "Infrastruktur",
@@ -272,7 +272,7 @@ export const ui = {
     // Trust Signals
     "trust.heading": "Byggt på förtroende",
     "trust.academic.title": "Akademisk grund",
-    "trust.academic.desc": "Peer-reviewed forskning, Wiley-publicering på gång. Utvecklad vid Luleå tekniska universitet och RISE Sweden. Referenser på begäran.",
+    "trust.academic.desc": "Referenser på begäran.",
     "trust.infra.title": "Produktionsinfrastruktur",
     "trust.infra.desc": "AWS, Cloudflare, PostgreSQL, Redis. Byggt för tillförlitlighet och skala.",
     "trust.secure.title": "Säkert från grunden",
@@ -280,7 +280,7 @@ export const ui = {
 
     // Footer
     "footer.brand": "Barivia AB",
-    "footer.tagline": "Dataintelligens som tjänst.<br />Byggt i Sverige.",
+    "footer.tagline": "Processövervakning &amp; regimanalys, som tjänst.<br />Byggt i Sverige.",
     "footer.links": "Länkar",
     "footer.linkPilot": "Pilotprojekt",
     "footer.linkDev": "För utvecklare",
