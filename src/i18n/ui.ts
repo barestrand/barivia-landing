@@ -13,7 +13,7 @@ export const ui = {
     // Hero
     "hero.wordmark": "Barivia AB",
     "hero.heading": "Anomaly Detection &amp; Regime Analysis<br class=\"hidden sm:block\" /> as a Service",
-    "hero.sub": "Detect anomalies, reveal operating regimes, and monitor processes continuously — using a proprietary analytics engine built for structured data. No coding required.",
+    "hero.sub": "Find what's hidden in your data. Detect anomalies, reveal operating regimes, and monitor processes — enabling insights that standard tools simply miss.",
     "hero.ctaPilot": "Start a Pilot",
     "hero.ctaDev": "For Developers",
 
@@ -35,8 +35,8 @@ export const ui = {
     "how.step4.desc": "We walk you through the results and their implications for your business.",
 
     // Domain Grid
-    "domains.heading": "Where We've Proven It",
-    "domains.sub": "Our technology works across domains — anywhere structured data holds hidden structure.",
+    "domains.heading": "Where It Applies",
+    "domains.sub": "Structured data holds hidden structure across many fields — here are the domains where we see the most potential.",
     "domains.energy.title": "Energy & Utilities",
     "domains.energy.desc": "Generation, distribution, and consumption data. Load patterns, anomaly detection.",
     "domains.industrial.title": "Industrial & Process",
@@ -157,7 +157,7 @@ export const ui = {
     // Hero
     "hero.wordmark": "Barivia AB",
     "hero.heading": "Anomalidetektering &amp; Regimanalys<br class=\"hidden sm:block\" /> som tjänst",
-    "hero.sub": "Detektera anomalier, avslöja driftregimer och övervaka processer kontinuerligt — med en proprietär analysmotor byggd för strukturerad data. Ingen kod krävs.",
+    "hero.sub": "Hitta det som döljer sig i din data. Detektera anomalier, avslöja driftregimer och övervaka processer — och möjliggör insikter som standardverktyg helt enkelt missar.",
     "hero.ctaPilot": "Starta ett pilotprojekt",
     "hero.ctaDev": "För utvecklare",
 
@@ -179,8 +179,8 @@ export const ui = {
     "how.step4.desc": "Vi går igenom resultaten och vad de innebär för din verksamhet.",
 
     // Domain Grid
-    "domains.heading": "Där vi har bevisat det",
-    "domains.sub": "Vår teknologi fungerar tvärs över domäner — överallt där strukturerad data döljer struktur.",
+    "domains.heading": "Där det passar in",
+    "domains.sub": "Strukturerad data döljer struktur inom många områden — här ser vi störst potential.",
     "domains.energy.title": "Energi & Kraftnät",
     "domains.energy.desc": "Produktion, distribution och förbrukningsdata. Lastmönster, anomalidetektering.",
     "domains.industrial.title": "Industri & Process",
