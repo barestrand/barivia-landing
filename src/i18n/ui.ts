@@ -22,6 +22,7 @@ export const ui = {
     "whatWeDo.p1": "There is structure in your data. Our platform brings it to light. Barivia AB is a data analytics company with a proprietary engine for process monitoring, anomaly detection, and structured data exploration.",
     "whatWeDo.p2": "From structured data (sensor streams, time series, spreadsheets, exports) operating modes, regime shifts, and anomalies emerge that standard tools cannot surface. The analysis toolkit goes beyond a single algorithm: variable projection, transition flow, cyclic decomposition, and regime classification work together.",
     "whatWeDo.p3": "The result: visual reports and actionable insight. What the normal operating envelope looks like, when something deviates, and how regimes shift over time.",
+    "whatWeDo.quote": "The map is not the territory.. though a better map changes everything you can do with it.",
 
     // How It Works
     "how.heading": "How It Works",
@@ -166,6 +167,7 @@ export const ui = {
     "whatWeDo.p1": "Det finns struktur i din data. Vår plattform synliggör den. Barivia AB är ett dataanalysföretag med en proprietär motor för processmonitorering, anomalidetektering och strukturerad datautforskning.",
     "whatWeDo.p2": "Från strukturerad data (sensorströmmar, tidsserier, kalkylblad, exporter) framträder driftlägen, regimskiften och anomalier som standardverktyg inte kan nå. Analysverktygen går bortom en enskild algoritm: variabelprojektion, transitionsflödesanalys, cyklisk dekomposition och regimklassificering fungerar tillsammans.",
     "whatWeDo.p3": "Resultatet: visuella rapporter och handlingsbara insikter. Hur det normala driftomhöljet ser ut, när något avviker, och hur regimer förändras över tid.",
+    "whatWeDo.quote": "Kartan är inte terrängen.. men en bättre karta förändrar allt du kan göra med den.",
 
     // How It Works
     "how.heading": "Så fungerar det",
